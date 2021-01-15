@@ -15,9 +15,10 @@ body{
     flex-direction: column;
 
     background-color: hsl(185, 75%, 39%);
-    background-image: url(./images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-position: top -500px left -220px, bottom -600px right -300px; /* Posicionando os circulos*/
 }
 
 section {
