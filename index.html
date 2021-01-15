@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css" />
   
   <title>Frontend Mentor | Profile card component</title>
 
@@ -15,21 +16,48 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
+  <section>
+    <div class="card">
+      
+      <div class="card_bg">
+        <div class="card_profile photo"> <!--se colocar dentro do bg e uma div vazia pro fundo branco se pá funciona-->
+          <img src="./images/image-victor.jpg" />
+        </div>
+      </div>  
 
-  80K
-  Followers
+      <div class="card_main user_box">
+        <div class="card_main main">
+          <span class="card_main name">Victor Crest</span>
+          <span class="card_main age">26</span>
+        </div>        
+        <span class="card_main city">London</span>
+      </div>
+              
+    </div>
 
-  803K
-  Likes
+    <div class="footer">
+      <div class="footer_section">
+        <div class="footer_info card_follow">
+          <span class="footer_number">80K</span>
+          <span class="footer_name">Followers</span>
+        </div>
 
-  1.4K
-  Photos
+        <div class="footer_info card_likes">
+          <span class="footer_number">803K</span>
+          <span class="footer_name">Likes</span>
+        </div>
+
+        <div class="footer_info card_photos">
+          <span class="footer_number">1.4K</span>
+          <span class="footer_name">Photos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/eike3237">Eike Souza</a>.
   </div>
 </body>
 </html>
